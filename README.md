@@ -6,6 +6,7 @@
 Next, I used the RandomOverSampler module from the imbalanced-learn library to balance the training dataset. I generated 56,277 observations for both low and high-risk loans. After this, I built a second logistic regression model (classifier) with the same goal of predicting loan status. The classification report results for both models are presented below for comparison.
 
 ------------ Results -------------
+
 Machine Learning Model 1:
 
 Accuracy: 94%
